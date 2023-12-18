@@ -1,0 +1,32 @@
+.phrase {
+  background-color: rgb(245, 239, 215);
+  color: black;
+  border-radius: 10px;
+  padding: 15px;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1em;
+  box-shadow: 10px 10px 0px 0px rgba(0,0,0,1);
+              -webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,1);
+              -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,1);
+  height: 10vw;
+}
+
+.phrase__p {
+  text-align: center;
+}
+
+.phrase__h3 {
+  font-style: italic;
+}
+
+@media (max-width:775px) {
+  .phrase {
+    font-size: 1em;
+    width: 80%;
+    height: 20vh;
+  }
+}
